@@ -5,7 +5,7 @@ export const IsOnlineEl = styled.span`
   border-radius: 50%;
   display: block;
 `;
-export const FriendsList = styled.ul`
+export const FriendsListWrap = styled.ul`
   display: flex;
   text-decoration: none;
   flex-direction: column;

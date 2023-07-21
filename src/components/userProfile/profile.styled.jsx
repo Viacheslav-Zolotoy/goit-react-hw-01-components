@@ -11,3 +11,35 @@ export const Container = styled.div`
   border-radius: 10px 10px 0px 0px;
   background-color: #fff;
 `;
+export const StatsList = styled.ul`
+  display: flex;
+  justify-content: space-around;
+  background-color: #dadbd7;
+`;
+export const StatsItem = styled.li`
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border: 1px solid gray;
+  flex-basis: calc((100%) / 3);
+`;
+export const StatsQuantity = styled.span`
+  font-weight: 700;
+`;
+export const UserAvatarThumb = styled.div`
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+`;
+export const FontName = styled.p`
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+`;
+export const FontTag = styled.p`
+  color: gray;
+  font-size: 18;
+`;
